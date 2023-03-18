@@ -1,0 +1,9 @@
+[submodule "projects/bitsandbytes"]
+	path = projects/bitsandbytes
+	url = https://github.com/TimDettmers/bitsandbytes.git
+[submodule "projects/alpaca-lora"]
+	path = projects/alpaca-lora
+	url = https://github.com/tloen/alpaca-lora.git
+[submodule "projects/alpaca.cpp"]
+	path = projects/alpaca.cpp
+	url = https://github.com/antimatter15/alpaca.cpp.git
