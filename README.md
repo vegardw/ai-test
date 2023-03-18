@@ -1,6 +1,6 @@
 # alpaca-test
 
-For testing alpaca-and alpaca-cpp
+For testing alpaca-lora and alpaca-cpp
 
 ##  Ready the environment on a blank lambdalabs vm
 
