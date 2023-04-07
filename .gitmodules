@@ -7,3 +7,6 @@
 [submodule "projects/alpaca.cpp"]
 	path = projects/alpaca.cpp
 	url = https://github.com/antimatter15/alpaca.cpp.git
+[submodule "projects/stable-diffusion-webui"]
+	path = projects/stable-diffusion-webui
+	url = https://github.com/AUTOMATIC1111/stable-diffusion-webui.git

@@ -23,3 +23,11 @@ sudo python setup.py install
 cd ../alpaca-lora
 pip install -r requirements.txt
 ```
+
+## Misc
+### update submodules
+
+```
+git submodule update --init --recursive
+git submodule foreach --recursive 'git fetch && git checkout $(git symbolic-ref refs/remotes/origin/HEAD | sed "s@^refs/remotes/origin/@@") && git pull --recurse-submodules'
+```
