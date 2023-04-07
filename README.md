@@ -1,15 +1,15 @@
-# alpaca-test
+# AI-test
 
-For testing alpaca-lora and alpaca-cpp
+For testing various AI/ML/LLM stuff
 
-##  Ready the environment on a blank lambdalabs vm
+## General
+###   Ready the environment on a blank lambdalabs vm
 
 ```
 ./setup_env_lambdalabs_vm.sh
-sudo reboot
 ```
-
-## install bitsandbytes from code
+## Alpaca-Lora
+### install bitsandbytes from code
 
 ```
 cd projects/bitsandbytes
@@ -17,7 +17,7 @@ make cuda11x
 sudo python setup.py install
 ```
 
-## install alpaca-lora requirements
+### install alpaca-lora requirements
 
 ```
 cd ../alpaca-lora
