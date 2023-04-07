@@ -18,7 +18,7 @@ sudo apt purge -y nvidia-cuda-toolkit
 sudo apt -y autoremove
 sudo apt -y autoclean
 # Install Cuda 11.7 from nvidia
-sudo apt install -y cuda-11-7
+sudo apt install -y cuda-toolkit-11-7
 sudo apt -y autoremove
 sudo apt -y autoclean
 
