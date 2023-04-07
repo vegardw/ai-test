@@ -17,8 +17,8 @@ sudo apt remove -y --autoremove nvidia-cuda-toolkit
 sudo apt purge -y nvidia-cuda-toolkit
 sudo apt -y autoremove
 sudo apt -y autoclean
-# Install Cuda toolkit 11.7 from nvidia
-sudo apt install -y cuda-toolkit-11-7
+# Install Cuda 11.7 from nvidia
+sudo apt install -y cuda-11-7
 sudo apt -y autoremove
 sudo apt -y autoclean
 
@@ -27,12 +27,3 @@ sudo apt -y autoclean
 
 # Add environment variables to .bashrc
 cat cuda_env_variables.sh >> ~/.bashrc
-
-# Upgrade various python packages
-python -m pip install --upgrade pip
-pip install --upgrade setuptools wheel
-pip install --upgrade numexpr
-pip3 install --upgrade torch torchvision torchaudio
-pip install transformers peft
-
-echo "Setup complete, please reboot"
